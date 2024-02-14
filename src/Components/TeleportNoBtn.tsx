@@ -34,7 +34,7 @@ const TeleportNoBtn: React.FC<Props> = ({
 	}
 	return (
 		<Box id="nobtn">
-			<AwesomeButton style={buttonStyle} type="danger">
+			<AwesomeButton style={buttonStyle} type="danger" onPress={onClick}>
 				No
 			</AwesomeButton>
 		</Box>
