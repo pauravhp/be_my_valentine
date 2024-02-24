@@ -1,6 +1,6 @@
 # be_my_valentine
 
-A funny way to ask someone to be your valentine
+A (really) funny way to ask someone to be your valentine
 
 # Getting Started with Create React App
 
