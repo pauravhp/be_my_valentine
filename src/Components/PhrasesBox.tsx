@@ -14,7 +14,7 @@ interface Props {
 
 const PhrasesBox: React.FC<Props> = ({ numberOfHovers, yesClicked }) => {
 	const theme = useTheme();
-
+	// Add your personal inside jokes and phrases here
 	const phrasesToDisplay = [
 		"No way you actually meant that, its alright, you get another chance",
 		"Really?????",

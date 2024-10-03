@@ -88,7 +88,7 @@ const QuestionBox = () => {
 			newX = Math.random() * (document.documentElement.clientWidth - 100); // Subtract button width
 			newY = Math.random() * (document.documentElement.clientHeight - 100); // Subtract button height
 		}
-		console.log("You clicked it!!");
+		// console.log("You clicked it!!");
 		// Update button position
 		setButtonPosition({ x: newX, y: newY });
 		setNumberofHovers((num) => num + 1);
@@ -109,6 +109,7 @@ const QuestionBox = () => {
 					variant="h4"
 					sx={{ color: theme.palette.primary.main, marginBottom: "10vh" }}
 				>
+					{/* Put your valentine-to-be's name here */}
 					Will you be my Valentine?
 				</Typography>
 			</TypeWriter>
