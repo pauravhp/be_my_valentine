@@ -109,7 +109,7 @@ const QuestionBox = () => {
 					variant="h4"
 					sx={{ color: theme.palette.primary.main, marginBottom: "10vh" }}
 				>
-					T, will you be my Valentine?
+					Will you be my Valentine?
 				</Typography>
 			</TypeWriter>
 			<PhrasesBox numberOfHovers={numberOfHovers} yesClicked={isYesClicked} />
