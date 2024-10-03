@@ -18,7 +18,6 @@ const PhrasesBox: React.FC<Props> = ({ numberOfHovers, yesClicked }) => {
 	const phrasesToDisplay = [
 		"No way you actually meant that, its alright, you get another chance",
 		"Really?????",
-		"Your mouse is moving like a rat YAPAYAPAYAPAYAPA so STOP",
 		"Ok ok fr stop now",
 		"Click the yes already 😒",
 		"At this point, I challenge you to actually CLICK that NO",
